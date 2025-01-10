@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
 <meta charset="UTF-8">
 <title>Caroline Conrad</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -13,7 +12,6 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
   
-  /*got animation from (https://codepen.io/jakejarvis/pen/pBZWZw)*/
   .wave {
     animation: wave-animation 2.5s infinite;
     transform-origin: 70% 70%;
@@ -32,17 +30,19 @@
   }
 
   .welcome-text {
+    font-size: 85px;
     font-family: 'Dela Gothic One', cursive;
     text-align: center;
     animation: waveAnimation 5s infinite;
+    color: red;
   }
 
   .profileimg{
     margin-left: 10%;
-    padding-top: 10%;
+    padding-top: 150px;
   }
   .intro1 {
-    font-size: 1.5rem;
+    font-size: 25px;
     font-family: 'Dela Gothic One', cursive;
     margin-top: -25%;
     text-align: left;
@@ -60,11 +60,12 @@
 .contactMe{
   text-align: center;
   background-color: rgb(25, 25, 25);
-  width: 90%;
-  margin-left: 5vw;
-  margin-top: -15%;
+  width: 1320px;
+  margin-left: 60px;
+  margin-top: -150px;
   padding-top: 2%;
   padding-bottom: 2%;
+  margin-bottom: 100px;
 }
 
 .projectShow img {
@@ -93,7 +94,7 @@
   padding: 2%;
   font-weight: bolder;
   font-size: 25px;
-  margin-bottom: -0.1em;
+  margin-bottom: -10px;
 }
 
 .butt{
@@ -144,25 +145,26 @@
 
 .container {
   border: 3px solid #0a0a0a;
-  width: 90%;
-  margin-left: 5vw;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 1500px;
   margin-bottom: 10%;
 }
 
 .top {
   padding: 10px;
-  background: #0d0d0d;
+  background:  #0d0d0d;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  width: 90%;
-  margin-left: 5vw;
+  width: 1320px;
+  margin-left: 60px;
   margin-bottom: -5px;
  
 }
 
 .col{
   padding: 15px;
-  margin-left: 0vw;
+  margin-left: 50px;
 }
 
 .row{
@@ -184,6 +186,8 @@
         transform: scale(1.05);
         transition: transform 0.3s ease;    }
 
+
+
 .card {
   border-style: solid;
   border-color: black;
@@ -194,20 +198,19 @@
 </style>
 
 <body>
-<div style=" width: 90%; margin-left: 5vw;border-style: solid; border-width: 0.3em; margin-bottom: -0.2em;margin-top: 0.1em;">
+<div style=" width: 1320px; margin-left: 60px;border-style: solid; border-width: 3px; margin-bottom: -2px;margin-top: 10px;">
 <div style="height: 50px; background-color: black; "></div>
 <div style="height: 700px; margin-bottom: 0%;">
 <div class="profileimg">
-<img src="images/profile.png" alt="profile" style="width:30%; border-radius: 100% ; border-style: solid; border-width: 0.3em; margin-left: -25px;  ">
+<img src="images/profile.png" alt="profile" style="width:30%; border-radius: 100% ; border-style: solid; border-width: 3px; margin-left: -25px;  ">
 </div>
 <div class="intro1">
-  <h1 class="welcome-text" style="font-size: 82px; margin-left: -90px;">WELCOME! <span class="wave">👋</span> </h1>
+  <h1 class="welcome-text" style="font-size: 82px; margin-left: -100px;">WELCOME! <span class="wave">👋</span> </h1>
   <p style="font-family: 'Courier New', Courier, monospace;">I'm Caroline Conrad, a computer science <br> & graphic design student.</p>
-
   <div style="margin-left: -10px;">
   <button class="pushable">
     <span class="front">
-      <a href="files/resume.pdf" id="topButtons"> RESUME</a>
+      <a href="" id="topButtons"> ABOUT</a>
     </span>
   </button>
   <button class="pushable">
@@ -231,10 +234,10 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
-<div class="container" >
+<div class="container">
  
-  <div class="content" >
-    <div class="myProjects" >
+  <div class="content">
+    <div class="myProjects">
       <div class="container text-center" style="border-style: none; margin-top: 25px;">
         <div class="row align-items-start">
           <div class="col">
@@ -283,21 +286,21 @@
           </div>
           <div class="col">
             <div class="card" style="width: 20rem;">
-              <img src="images/alc.png" class="card-img-top" alt="..." style="height: 210px;">
+              <img src="images/rps.jpeg" class="card-img-top" alt="..." style="height: 210px;">
               <div class="card-body">
-                <h5 class="card-title">Abundant Life Center</h5>
-                <p class="card-text">Volunteer web design project utilizng SquareSpace. </p>
-                <a href="https://www.alcthailand.com/" class="btn btn-outline-dark">LEARN MORE</a>
+                <h5 class="card-title">Rock, Paper, Scissors</h5>
+                <p class="card-text">A simple game of rock, paper, scissors.</p>
+                <a href="https://github.com/carolinepconrad/rock_paper_scissors" class="btn btn-outline-dark">LEARN MORE</a>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card" style="width: 20rem;">
-              <img src="images/amongus.png" class="card-img-top" alt="..." style="height: 210px;">
+              <img src="images/rconvert.png" class="card-img-top" alt="..." style="height: 210px;">
               <div class="card-body">
-                <h5 class="card-title">Among Us Animation</h5>
-                <p class="card-text">A 3D rendered animation using Blender.</p>
-                <a href="https://www.youtube.com/watch?v=IMX1VW-aItw" class="btn btn-outline-dark">LEARN MORE</a>
+                <h5 class="card-title">Recipe Converter</h5>
+                <p class="card-text">A simple program that adjusts recipe measurements.</p>
+                <a href="https://github.com/carolinepconrad/Recipe_Converter" class="btn btn-outline-dark">LEARN MORE</a>
               </div>
             </div>
           </div>
@@ -310,28 +313,28 @@
      </div>
        </div>
      </div>
-     <div class="contactMe" id="cSection">
-      <div>
-          <p style="font-family: 'Dela Gothic One', cursive; font-size: 35px;color: rgb(255, 255, 255);">CONTACT ME</p>
-          <div id="socials" style="display: flex; justify-content: center;">
-            <a style="margin-right: 10px;" href="https://www.linkedin.com/in/carolinepearlconrad">
-                <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-            </a>
-            <a  style="margin-right: 10px;"href="https://github.com/carolinepconrad"> 
-              <img src="https://img.shields.io/badge/GitHub-purple?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
-          </a>
-          <a href="mailto:conradzcaroline@gmail.com"> 
-            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-        </a>
-         
-        </div>
-      </div>
-    </div>
+    
   </div>
   
 
-<!--ADD MORE LATER-->
 
-</head>
+<div class="contactMe" id="cSection">
+  <div>
+      <p style="font-family: 'Dela Gothic One', cursive; font-size: 35px;color: rgb(255, 255, 255);">CONTACT ME</p>
+      <div id="socials" style="display: flex; justify-content: center;">
+        <a style="margin-right: 10px;" href="https://www.linkedin.com/in/carolinepearlconrad">
+            <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+        </a>
+        <a  style="margin-right: 10px;"href="https://github.com/carolinepconrad"> 
+          <img src="https://img.shields.io/badge/GitHub-purple?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+      </a>
+      <a href="mailto:conradzcaroline@gmail.com"> 
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+    </a>
+     
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
