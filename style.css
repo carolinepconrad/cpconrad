@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*, *::before, *::after{
+    box-sizing:border-box;
+}
+/*got animation from (https://codepen.io/jakejarvis/pen/pBZWZw)*/
+.wave {
+    animation: wave-animation 2.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcometext{
+     font-family: 'Dela Gothic One',sans-serif;
+     background-color: red;
+     text-align: right;
+     margin-right: 4.5vw;
+     font-size: 8vw;
+}
+
+.landingpage{
+    display: flex;
+    
+}
+.proimg img{
+    border-radius: 100% ;
+    border-width: 0.3vw;
+    border-color: black;
+    border-style: solid;
+    margin-left: 1rem;
+    width: 100%;
+    background-color: red;
+   
+}
